@@ -8,6 +8,36 @@ This repository contains code for analyzing data related to lfp battery RUL and 
 *"Paper Title"* submitted to *Batteries by MDPI*.  
 
 ## Requirements  
+
+    Code structure
+            Battery-Gompertz-Informed-Neural-Networks
+            │
+            ├── README.md             # The most important file (Documentation)
+            ├── LICENSE               # Usage rights (MIT, Apache 2.0, etc.)
+            ├── .gitignore            # Files to exclude from version control (e.g., large data)
+            ├── requirements.txt      # Python dependencies (or environment.yml)
+            │
+            ├── data/                 # Data files (inputs)
+            │   ├── raw/              # Original, immutable data dump
+            │   ├── processed/        # Cleaned data used for modeling
+            │   └── external/         # Data from third party sources
+            │
+            ├── src/                  # Source code (The "Engine")
+            │   ├── __init__.py       # Makes this a Python module
+            │   ├── data_loader.py    # Scripts to ingest and clean data
+            │   ├── models.py         # Architecture definitions (e.g., Neural Net classes)
+            │   └── train.py          # Training loops / Simulation scripts
+            │
+            ├── notebooks/            # Jupyter notebooks (Exploration & Figures)
+            │   ├── 01_eda.ipynb      # Exploratory Data Analysis
+            │   └── 02_figures.ipynb  # Code to generate specific paper figures
+            │
+            ├── results/              # Model outputs (outputs)
+            │   ├── models/           # Saved model checkpoints (.pth, .h5)
+            │   └── figures/          # Generated PNG/PDFs matching the paper
+            │
+            └── tests/                # Unit tests to ensure code validity
+
 List dependencies or link to a `requirements.txt` file.  
 
 Example:  
