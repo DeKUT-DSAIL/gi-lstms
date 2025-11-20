@@ -1,11 +1,11 @@
-# Project Title  
+# Gompertz Informed Neural Networks for LFP Battery Health Estimation 
 
 ## Description  
 Provide a brief but informative description of your project.  
 
 Example:  
-This repository contains code for analyzing data related to bird species monitoring in the Mt. Kenya ecosystem. The analysis supports findings presented in the paper:  
-*"Comparing point counts, passive acoustic monitoring, citizen science, and machine learning for bird species monitoring in the Mt. Kenya ecosystem,"* submitted to *Philosophical Transactions of the Royal Society B*.  
+This repository contains code for analyzing data related to lfp battery RUL and SoH prediction. The analysis supports findings presented in the paper:  
+*"Paper Title"* submitted to *Batteries by MDPI*.  
 
 ## Requirements  
 List dependencies or link to a `requirements.txt` file.  
