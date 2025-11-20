@@ -27,8 +27,8 @@ This repository contains code for analyzing data related to lfp battery RUL and 
             │   ├── data_loader.py    # Scripts to ingest and clean data
             │   ├── models.py         # Architecture definitions (e.g., Neural Net classes)
             │   └── train.py          # Training loops / Simulation scripts
-            |   └── SoC-generation.py   # Calculate State of Charge  per cycle  from current and time
-            |   └── SoH-generation.py   # Calculate State of Health  per cycle  from max and min SoC
+            |   └── SoC-calculation.py   # Calculate State of Charge  per cycle  from current and time
+            |   └── SoH-calculation.py   # Calculate State of Health  per cycle  from max and min SoC
             │
             ├── notebooks/            # Jupyter notebooks (Exploration & Figures)
             │   ├── 01_eda.ipynb      # Exploratory Data Analysis
