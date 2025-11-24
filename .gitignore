@@ -1,2 +1,6 @@
 *.ipynb_checkpoints
 *.pyc
+<<<<<<< HEAD
+=======
+venv/
+>>>>>>> 7471941f0745cda8296c8c9ec7d53b71ccbe3a71
