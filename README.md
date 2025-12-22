@@ -147,12 +147,10 @@ Describe how users can access/download the dataset.
 
 Example:
     Public Data: Link to dataset
-    Request Access: Contact your-email@example.com to obtain the dataset.
+    Request Access: Contact yuri.njathi@dkut.ac.ke to obtain the dataset.
     
 ## Citation
-If the project is linked to a paper, provide a citation.
 
-Example:
 If you use this repository, please cite:
 ```
 @article{yourcitation2025,
