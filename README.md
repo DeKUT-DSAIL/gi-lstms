@@ -143,9 +143,8 @@ python main.py
 
 ## Data Access
 
-Describe how users can access/download the dataset.
+Gompertz parameters dataset...
 
-Example:
     Public Data: Link to dataset
     Request Access: Contact yuri.njathi@dkut.ac.ke to obtain the dataset.
     
