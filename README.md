@@ -129,10 +129,10 @@ Provide step-by-step instructions to set up and use the project.
 Example:
 ```
 # Clone the repository
-git clone https://github.com/username/repository-name.git  
+git clone https://github.com/DeKUT-DSAIL/GINNs.git
 
 # Navigate to the project directory
-cd repository-name  
+cd GINNs
 
 # Install dependencies
 pip install -r requirements.txt  
