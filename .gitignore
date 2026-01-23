@@ -4,8 +4,13 @@
 <<<<<<< HEAD
 =======
 venv/
+<<<<<<< HEAD
 >>>>>>> 7471941f0745cda8296c8c9ec7d53b71ccbe3a71
 =======
 venv/
 results/csvs/
 >>>>>>> pipe
+=======
+results/csvs/
+data/raw/
+>>>>>>> feb0f1638f323006d2e6616bb6a162ce072536d9
