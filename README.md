@@ -40,6 +40,72 @@ This repository contains code for analyzing data related to lfp battery RUL and 
             │
             └── tests/                # Unit tests to ensure code validity
 
+
+
+### BatteryML Code Structure
+    Code structure
+        batteryml/
+        │
+        ├── bin/                    # Data cycler loaders (ARBIN, NEWARE), SoH tools, CLI utilities
+        ├── configs/                # Model + pipeline configs
+        ├── image/                  # Benchmark result images
+        │
+        ├── baseline.ipynb          # Baseline modeling pipeline
+        ├── result.ipynb            # Benchmark result display
+        ├── soh_example.ipynb       # SoH example usage
+        │
+        ├── dataprepare.md          # Data preparation instructions
+        ├── README.md               # Project documentation
+        ├── requirements.txt        # Dependencies
+        ├── setup.py                # Install/CLI configuration
+        │
+        ├── CODE_OF_CONDUCT.md
+        ├── SECURITY.md
+        ├── LICENSE
+        ├── .gitignore
+        └── .flake8
+
+
+# More details 
+    ├─ .flake8                 # Flake8 linting config
+    ├─ .gitignore              # Git ignore patterns
+    ├─ CODE_OF_CONDUCT.md      # Community guidelines
+    ├─ LICENSE                 # Project license
+    ├─ README.md               # Overview and usage
+    ├─ SECURITY.md             # Security/reporting policy
+    ├─ setup.py                # Packaging and CLI setup
+    ├─ requirements.txt        # Python dependency list
+    ├─ dataprepare.md          # Data preparation guide
+    ├─ run_all_rul_baseline.sh # Run all RUL baseline experiments
+    ├─ baseline.ipynb          # Baseline modeling workflow
+    ├─ result.ipynb            # Benchmark visualization
+    ├─ soh_example.ipynb       # State-of-Health example
+    ├─ image/                  # Documentation graphics
+    │  ├─ Logo_RGB.png
+    │  ├─ framework.png
+    │  └─ framework_new.png
+    ├─ configs/                # Experiment/model configs
+    │  ├─ baselines/           # Baseline configs
+    │  ├─ cyclers/             # Device/cycler configs
+    │  └─ soh/                 # SoH experiment configs
+    ├─ bin/                    # CLI scripts
+    │  ├─ __init__.py
+    │  └─ batteryml.py         # Main CLI entry
+    └─ batteryml/              # Core Python package
+       ├─ __init__.py
+       ├─ builders.py          # Model/pipeline builders
+       ├─ pipeline.py          # Pipeline orchestration
+       ├─ task.py              # Task runners/definitions
+       ├─ data/                # Data loaders/parsers
+       ├─ feature/             # Feature engineering
+       ├─ label/               # Label generation (RUL/SoH)
+       ├─ models/              # Model implementations
+       ├─ preprocess/          # Preprocessing utilities
+       ├─ train_test_split/    # Dataset splitting logic
+       ├─ utils/               # Shared utilities
+       └─ visualization/       # Plotting tools
+
+
 List dependencies or link to a `requirements.txt` file.  
 
 Example:  
@@ -63,10 +129,10 @@ Provide step-by-step instructions to set up and use the project.
 Example:
 ```
 # Clone the repository
-git clone https://github.com/username/repository-name.git  
+git clone https://github.com/DeKUT-DSAIL/GINNs.git
 
 # Navigate to the project directory
-cd repository-name  
+cd GINNs
 
 # Install dependencies
 pip install -r requirements.txt  
@@ -77,16 +143,13 @@ python main.py
 
 ## Data Access
 
-Describe how users can access/download the dataset.
+Gompertz parameters dataset...
 
-Example:
     Public Data: Link to dataset
-    Request Access: Contact your-email@example.com to obtain the dataset.
+    Request Access: Contact yuri.njathi@dkut.ac.ke to obtain the dataset.
     
 ## Citation
-If the project is linked to a paper, provide a citation.
 
-Example:
 If you use this repository, please cite:
 ```
 @article{yourcitation2025,
