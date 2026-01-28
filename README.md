@@ -1,4 +1,4 @@
-# Gompertz Informed Neural Networks for LFP Battery Health Estimation 
+# Gompertz-Informed LSTMs for LFP Battery Health Estimation 
 
 ## Description  
 Provide a brief but informative description of your project.  
